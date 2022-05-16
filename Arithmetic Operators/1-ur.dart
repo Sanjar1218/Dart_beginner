@@ -1,5 +1,5 @@
 void main() {
-  double x = 2.9;
-  print(x.floor());
+  double x = 6.9;
+  print(x.toString().runtimeType);
 }
-//console output: 3
+//console output: String
