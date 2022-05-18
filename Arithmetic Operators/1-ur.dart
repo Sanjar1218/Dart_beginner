@@ -1,5 +1,7 @@
 void main() {
-  double x = 6.9;
-  print(x.toString().runtimeType);
+  var x = 6;
+  x = 7;
+  print(x.runtimeType);
 }
-//console output: String
+//console output: Error: A value of type 'String' 
+//can't be assigned to a variable of type 'int'.

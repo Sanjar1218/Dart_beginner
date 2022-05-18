@@ -1,3 +1,4 @@
 void main() {
-  print("Hello World");
+  int s = 4;
+  print("hello");
 }
